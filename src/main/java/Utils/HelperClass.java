@@ -70,7 +70,7 @@ public class HelperClass {
             MutableCapabilities bstackOptions = new MutableCapabilities();
             bstackOptions.setCapability("os", properties.getProperty("os", "Windows"));
             bstackOptions.setCapability("osVersion", properties.getProperty("os_version", "11"));
-            bstackOptions.setCapability("resolution", properties.getProperty("resolution", "1920x1080"));
+            bstackOptions.setCapability("resolution", "1366x768");
             bstackOptions.setCapability("sessionName", "Shop HighLine Execution");
             bstackOptions.setCapability("buildName", "ShopHighLine Automation Build");
             bstackOptions.setCapability("local", "false");
