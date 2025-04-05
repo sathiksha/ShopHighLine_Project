@@ -82,6 +82,14 @@
     <version>3.3.0</version>
 </dependency>
 
+<!-- https://mvnrepository.com/artifact/com.browserstack/browserstack-java-sdk -->
+<dependency>
+    <groupId>com.browserstack</groupId>
+    <artifactId>browserstack-java-sdk</artifactId>
+    <version>1.30.9</version>
+</dependency>
+
+
 
 
   </dependencies>

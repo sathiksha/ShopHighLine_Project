@@ -1,0 +1,1193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="7.062" tests="2" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="22"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Sathik\eclipse-workspace\Shop_HighLine_Project\target\test-classes;C:\Users\Sathik\eclipse-workspace\Shop_HighLine_Project\target\classes;C:\Users\Sathik\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\Sathik\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Sathik\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Sathik\.m2\repository\io\cucumber\cucumber-testng\7.18.0\cucumber-testng-7.18.0.jar;C:\Users\Sathik\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Sathik\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Sathik\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Sathik\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\Sathik\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Sathik\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\Sathik\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\Sathik\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\Sathik\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Sathik\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Sathik\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Sathik\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Sathik\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\Sathik\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\Sathik\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Sathik\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Sathik\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Sathik\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\Sathik\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Sathik\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\Sathik\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Sathik\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Sathik\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\Sathik\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\Sathik\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\Sathik\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Sathik\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sathik\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sathik\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Sathik\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Sathik\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\Sathik\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\Sathik\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\Sathik\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\Sathik\.m2\repository\com\aventstack\extentreports\5.1.0\extentreports-5.1.0.jar;C:\Users\Sathik\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Sathik\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Sathik\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Sathik\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\Sathik\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\Sathik\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\Sathik\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\Sathik\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\Sathik\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\Sathik\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Sathik\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\Sathik\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\Sathik\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\Sathik\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\Sathik\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\Sathik\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\Sathik\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\Sathik\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\Sathik\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\Sathik\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Sathik\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Sathik\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Sathik\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\Sathik\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\Sathik\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Sathik\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Sathik\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Sathik\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Sathik\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Sathik\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Sathik\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Sathik\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Sathik\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.3.0\maven-surefire-plugin-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\surefire-api\3.3.0\surefire-api-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.3.0\surefire-shared-utils-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.3.0\surefire-extensions-api-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.3.0\maven-surefire-common-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\surefire-booter\3.3.0\surefire-booter-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.3.0\surefire-extensions-spi-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.4.1\maven-resolver-util-1.4.1.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.4.1\maven-resolver-api-1.4.1.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.4.0\maven-common-artifact-filters-3.4.0.jar;C:\Users\Sathik\.m2\repository\org\codehaus\plexus\plexus-java\1.2.0\plexus-java-1.2.0.jar;C:\Users\Sathik\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\Sathik\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\Sathik\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.12.744\aws-java-sdk-s3-1.12.744.jar;C:\Users\Sathik\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.12.744\aws-java-sdk-kms-1.12.744.jar;C:\Users\Sathik\.m2\repository\com\amazonaws\aws-java-sdk-core\1.12.744\aws-java-sdk-core-1.12.744.jar;C:\Users\Sathik\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\Sathik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.7.2\jackson-databind-2.12.7.2.jar;C:\Users\Sathik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.7\jackson-annotations-2.12.7.jar;C:\Users\Sathik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.7\jackson-core-2.12.7.jar;C:\Users\Sathik\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.12.6\jackson-dataformat-cbor-2.12.6.jar;C:\Users\Sathik\.m2\repository\joda-time\joda-time\2.12.7\joda-time-2.12.7.jar;C:\Users\Sathik\.m2\repository\com\amazonaws\jmespath-java\1.12.744\jmespath-java-1.12.744.jar;C:\Users\Sathik\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\surefire-report-parser\3.3.0\surefire-report-parser-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.3.0\surefire-logger-api-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\Sathik\.m2\repository\com\browserstack\browserstack-java-sdk\1.30.9\browserstack-java-sdk-1.30.9.jar;C:\Users\Sathik\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\Sathik\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar;C:\Users\Sathik\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="22"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
+    <property name="sun.java.command" value="C:\Users\Sathik\AppData\Local\Temp\surefire12130471535699977544\surefirebooter-20250405211721262_3.jar C:\Users\Sathik\AppData\Local\Temp\surefire12130471535699977544 2025-04-05T21-17-21_081-jvmRun1 surefire-20250405211721262_1tmp surefire_0-20250405211721262_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Sathik\eclipse-workspace\Shop_HighLine_Project\target\test-classes;C:\Users\Sathik\eclipse-workspace\Shop_HighLine_Project\target\classes;C:\Users\Sathik\.m2\repository\io\cucumber\cucumber-java\7.18.0\cucumber-java-7.18.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\cucumber-core\7.18.0\cucumber-core-7.18.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\cucumber-gherkin\7.18.0\cucumber-gherkin-7.18.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.18.0\cucumber-gherkin-messages-7.18.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\gherkin\28.0.0\gherkin-28.0.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\testng-xml-formatter\0.1.0\testng-xml-formatter-0.1.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\datatable\7.18.0\datatable-7.18.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\cucumber-plugin\7.18.0\cucumber-plugin-7.18.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\docstring\7.18.0\docstring-7.18.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\html-formatter\21.3.1\html-formatter-21.3.1.jar;C:\Users\Sathik\.m2\repository\io\cucumber\junit-xml-formatter\0.4.0\junit-xml-formatter-0.4.0.jar;C:\Users\Sathik\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\Sathik\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Sathik\.m2\repository\io\cucumber\cucumber-testng\7.18.0\cucumber-testng-7.18.0.jar;C:\Users\Sathik\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Sathik\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Sathik\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Sathik\.m2\repository\io\github\bonigarcia\webdrivermanager\5.8.0\webdrivermanager-5.8.0.jar;C:\Users\Sathik\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Sathik\.m2\repository\com\github\docker-java\docker-java\3.3.6\docker-java-3.3.6.jar;C:\Users\Sathik\.m2\repository\com\github\docker-java\docker-java-core\3.3.6\docker-java-core-3.3.6.jar;C:\Users\Sathik\.m2\repository\com\github\docker-java\docker-java-api\3.3.6\docker-java-api-3.3.6.jar;C:\Users\Sathik\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Sathik\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Sathik\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Sathik\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Sathik\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.6\docker-java-transport-httpclient5-3.3.6.jar;C:\Users\Sathik\.m2\repository\com\github\docker-java\docker-java-transport\3.3.6\docker-java-transport-3.3.6.jar;C:\Users\Sathik\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Sathik\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Sathik\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Sathik\.m2\repository\org\apache\commons\commons-compress\1.26.1\commons-compress-1.26.1.jar;C:\Users\Sathik\.m2\repository\commons-codec\commons-codec\1.16.1\commons-codec-1.16.1.jar;C:\Users\Sathik\.m2\repository\commons-io\commons-io\2.15.1\commons-io-2.15.1.jar;C:\Users\Sathik\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Sathik\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Sathik\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.21.0\selenium-chrome-driver-4.21.0.jar;C:\Users\Sathik\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-api\4.21.0\selenium-api-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.21.0\selenium-chromium-driver-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-json\4.21.0\selenium-json-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.21.0\selenium-manager-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-os\4.21.0\selenium-os-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.21.0\selenium-remote-driver-4.21.0.jar;C:\Users\Sathik\.m2\repository\com\google\guava\guava\33.2.0-jre\guava-33.2.0-jre.jar;C:\Users\Sathik\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\Sathik\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\Sathik\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\Sathik\.m2\repository\org\checkerframework\checker-qual\3.42.0\checker-qual-3.42.0.jar;C:\Users\Sathik\.m2\repository\com\google\errorprone\error_prone_annotations\2.26.1\error_prone_annotations-2.26.1.jar;C:\Users\Sathik\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-api\1.38.0\opentelemetry-api-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-context\1.38.0\opentelemetry-context-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.38.0\opentelemetry-exporter-logging-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.38.0\opentelemetry-sdk-common-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.38.0\opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.38.0\opentelemetry-sdk-extension-autoconfigure-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.38.0-alpha\opentelemetry-api-incubator-1.38.0-alpha.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.38.0\opentelemetry-sdk-trace-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.38.0\opentelemetry-sdk-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.38.0\opentelemetry-sdk-metrics-1.38.0.jar;C:\Users\Sathik\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.38.0\opentelemetry-sdk-logs-1.38.0.jar;C:\Users\Sathik\.m2\repository\net\bytebuddy\byte-buddy\1.14.15\byte-buddy-1.14.15.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-http\4.21.0\selenium-http-4.21.0.jar;C:\Users\Sathik\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-java\4.21.0\selenium-java-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v123\4.21.0\selenium-devtools-v123-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v124\4.21.0\selenium-devtools-v124-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v125\4.21.0\selenium-devtools-v125-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.21.0\selenium-devtools-v85-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.21.0\selenium-edge-driver-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.21.0\selenium-firefox-driver-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.21.0\selenium-ie-driver-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.21.0\selenium-safari-driver-4.21.0.jar;C:\Users\Sathik\.m2\repository\org\seleniumhq\selenium\selenium-support\4.21.0\selenium-support-4.21.0.jar;C:\Users\Sathik\.m2\repository\tech\grasshopper\extentreports-cucumber7-adapter\1.14.0\extentreports-cucumber7-adapter-1.14.0.jar;C:\Users\Sathik\.m2\repository\com\aventstack\extentreports\5.1.0\extentreports-5.1.0.jar;C:\Users\Sathik\.m2\repository\io\reactivex\rxjava3\rxjava\3.1.6\rxjava-3.1.6.jar;C:\Users\Sathik\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Sathik\.m2\repository\org\freemarker\freemarker\2.3.32\freemarker-2.3.32.jar;C:\Users\Sathik\.m2\repository\tech\grasshopper\extent-pdf-report\2.12.0\extent-pdf-report-2.12.0.jar;C:\Users\Sathik\.m2\repository\tech\grasshopper\cucumber-pdf-report\2.14.0\cucumber-pdf-report-2.14.0.jar;C:\Users\Sathik\.m2\repository\org\apache\pdfbox\pdfbox\2.0.26\pdfbox-2.0.26.jar;C:\Users\Sathik\.m2\repository\org\apache\pdfbox\fontbox\2.0.26\fontbox-2.0.26.jar;C:\Users\Sathik\.m2\repository\org\knowm\xchart\xchart\3.8.0\xchart-3.8.0.jar;C:\Users\Sathik\.m2\repository\de\erichseifert\vectorgraphics2d\VectorGraphics2D\0.13\VectorGraphics2D-0.13.jar;C:\Users\Sathik\.m2\repository\de\rototor\pdfbox\graphics2d\0.30\graphics2d-0.30.jar;C:\Users\Sathik\.m2\repository\com\madgag\animated-gif-lib\1.4\animated-gif-lib-1.4.jar;C:\Users\Sathik\.m2\repository\org\yaml\snakeyaml\2.0\snakeyaml-2.0.jar;C:\Users\Sathik\.m2\repository\tech\grasshopper\table-layout\1.5.1\table-layout-1.5.1.jar;C:\Users\Sathik\.m2\repository\tech\grasshopper\rest-assured-cucumber-pdf-report\1.5.0\rest-assured-cucumber-pdf-report-1.5.0.jar;C:\Users\Sathik\.m2\repository\org\jsoup\jsoup\1.15.3\jsoup-1.15.3.jar;C:\Users\Sathik\.m2\repository\com\aventstack\klov-reporter\5.1.0\klov-reporter-5.1.0.jar;C:\Users\Sathik\.m2\repository\org\mongodb\mongodb-driver\3.6.4\mongodb-driver-3.6.4.jar;C:\Users\Sathik\.m2\repository\org\mongodb\mongodb-driver-core\3.6.4\mongodb-driver-core-3.6.4.jar;C:\Users\Sathik\.m2\repository\org\mongodb\bson\3.6.4\bson-3.6.4.jar;C:\Users\Sathik\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Sathik\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Sathik\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Sathik\.m2\repository\tech\grasshopper\htmlextentreporter\1.1.0\htmlextentreporter-1.1.0.jar;C:\Users\Sathik\.m2\repository\tech\grasshopper\extent-excel-report\1.4.0\extent-excel-report-1.4.0.jar;C:\Users\Sathik\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Sathik\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Sathik\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Sathik\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Sathik\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Sathik\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Sathik\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Sathik\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Sathik\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\plugins\maven-surefire-plugin\3.3.0\maven-surefire-plugin-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\surefire-api\3.3.0\surefire-api-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.3.0\surefire-shared-utils-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\surefire-extensions-api\3.3.0\surefire-extensions-api-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\maven-surefire-common\3.3.0\maven-surefire-common-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\surefire-booter\3.3.0\surefire-booter-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.3.0\surefire-extensions-spi-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\resolver\maven-resolver-util\1.4.1\maven-resolver-util-1.4.1.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\resolver\maven-resolver-api\1.4.1\maven-resolver-api-1.4.1.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\shared\maven-common-artifact-filters\3.4.0\maven-common-artifact-filters-3.4.0.jar;C:\Users\Sathik\.m2\repository\org\codehaus\plexus\plexus-java\1.2.0\plexus-java-1.2.0.jar;C:\Users\Sathik\.m2\repository\org\ow2\asm\asm\9.6\asm-9.6.jar;C:\Users\Sathik\.m2\repository\com\thoughtworks\qdox\qdox\2.0.3\qdox-2.0.3.jar;C:\Users\Sathik\.m2\repository\com\amazonaws\aws-java-sdk-s3\1.12.744\aws-java-sdk-s3-1.12.744.jar;C:\Users\Sathik\.m2\repository\com\amazonaws\aws-java-sdk-kms\1.12.744\aws-java-sdk-kms-1.12.744.jar;C:\Users\Sathik\.m2\repository\com\amazonaws\aws-java-sdk-core\1.12.744\aws-java-sdk-core-1.12.744.jar;C:\Users\Sathik\.m2\repository\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar;C:\Users\Sathik\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.12.7.2\jackson-databind-2.12.7.2.jar;C:\Users\Sathik\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.12.7\jackson-annotations-2.12.7.jar;C:\Users\Sathik\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.12.7\jackson-core-2.12.7.jar;C:\Users\Sathik\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-cbor\2.12.6\jackson-dataformat-cbor-2.12.6.jar;C:\Users\Sathik\.m2\repository\joda-time\joda-time\2.12.7\joda-time-2.12.7.jar;C:\Users\Sathik\.m2\repository\com\amazonaws\jmespath-java\1.12.744\jmespath-java-1.12.744.jar;C:\Users\Sathik\.m2\repository\org\projectlombok\lombok\1.18.32\lombok-1.18.32.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\surefire-report-parser\3.3.0\surefire-report-parser-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.3.0\surefire-logger-api-3.3.0.jar;C:\Users\Sathik\.m2\repository\org\apache\maven\shared\maven-shared-utils\3.3.4\maven-shared-utils-3.3.4.jar;C:\Users\Sathik\.m2\repository\com\browserstack\browserstack-java-sdk\1.30.9\browserstack-java-sdk-1.30.9.jar;C:\Users\Sathik\.m2\repository\ch\qos\logback\logback-classic\1.5.18\logback-classic-1.5.18.jar;C:\Users\Sathik\.m2\repository\ch\qos\logback\logback-core\1.5.18\logback-core-1.5.18.jar;C:\Users\Sathik\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Sathik"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-22"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Sathik\eclipse-workspace\Shop_HighLine_Project"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Sathik\AppData\Local\Temp\surefire12130471535699977544\surefirebooter-20250405211721262_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="22.0.2+9-70"/>
+    <property name="user.name" value="Sathik"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="otel.metrics.exporter" value="none"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="otel.traces.exporter" value="none"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Sathik\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="otel.logs.exporter" value="none"/>
+    <property name="java.io.tmpdir" value="C:\Users\Sathik\AppData\Local\Temp\"/>
+    <property name="java.version" value="22.0.2"/>
+    <property name="user.dir" value="C:\Users\Sathik\eclipse-workspace\Shop_HighLine_Project"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-22\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\OpenLogic\jdk-11.0.21.9-hotspot\bin;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Users\USER\Downloads\allure-commandline-2.20.1\allure-2.20.1\bin;C:\Users\Sathik\Downloads\apache-maven-3.9.1\bin;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Users\Sathik\AppData\Local\Android\Sdk;C:\Users\Sathik\AppData\Local\Android\Sdk\platform-tools;C:\Users\Sathik\AppData\Local\Android\Sdk\platforms\android-34;C:\Users\Sathik\AppData\Local\Android\Sdk\build-tools\34.0.0;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\Sathik\AppData\Local\Android\Sdk\build-tools\34.0.0\lld-bin;C:\Users\Sathik\AppData\Local\Android\;C:\Users\Sathik\Downloads\apache-jmeter-5.6.2\bin;C:\Program Files\Java\jdk-22\bin;C:\Program Files\nodejs\;C:\Program Files\k6\;C:\Program Files\Go\bin;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\Program Files\Git\cmd;C:\Users\Sathik\AppData\Local\Microsoft\WindowsApps;C:\Users\Sathik\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Sathik\AppData\Roaming\npm;C:\Users\Sathik\go\bin;c:\users\sathik\appdata\roaming\python\python38\scripts;c:\users\sathik\.local\bin;C:\Users\Sathik\AppData\Local\GitHubDesktop\bin;C:\Users\Sathik\AppData\Local\Programs\cursor\resources\app\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="22.0.2+9-70"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="66.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Validating the Search functionality&quot;, &quot;End To End Validation of the functionality of the shophighlinewarren site&quot;](1)" classname="Runner.ReRunnerTest" time="0.724">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;VDL171&apos;, ip: &apos;192.168.128.253&apos;&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browser: chrome, browser_version: latest, bstack:options: {accessKey: mp3htyvVeMchJqfJAzqp, buildName: Build 1, projectName: Cucumber Selenium Project, sessionName: Search Test, userName: sathiksha_aux1ho}, os: Windows, os_version: 10, resolution: 1920x1080}]}]&#10;Capabilities {browser: chrome, browser_version: latest, bstack:options: {accessKey: mp3htyvVeMchJqfJAzqp, buildName: Build 1, projectName: Cucumber Selenium Project, sessionName: Search Test, userName: sathiksha_aux1ho}, os: Windows, os_version: 10, resolution: 1920x1080}" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'VDL171', ip: '192.168.128.253'
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browser: chrome, browser_version: latest, bstack:options: {accessKey: mp3htyvVeMchJqfJAzqp, buildName: Build 1, projectName: Cucumber Selenium Project, sessionName: Search Test, userName: sathiksha_aux1ho}, os: Windows, os_version: 10, resolution: 1920x1080}]}]
+Capabilities {browser: chrome, browser_version: latest, bstack:options: {accessKey: mp3htyvVeMchJqfJAzqp, buildName: Build 1, projectName: Cucumber Selenium Project, sessionName: Search Test, userName: sathiksha_aux1ho}, os: Windows, os_version: 10, resolution: 1920x1080}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+	at Utils.HelperClass.initializeBrowserStackDriver(HelperClass.java:87)
+	at Utils.HelperClass.initializeDriver(HelperClass.java:58)
+	at Utils.HelperClass.<init>(HelperClass.java:36)
+	at Utils.HelperClass.getInstance(HelperClass.java:44)
+	at Definitions.Hooks.setUp(Hooks.java:19)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [browser, browser_version, os, os_version, resolution]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:163)
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:555)
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:556)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:556)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:167)
+	at org.openqa.selenium.remote.NewSessionPayload.<init>(NewSessionPayload.java:70)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:99)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+	at Utils.HelperClass.initializeBrowserStackDriver(HelperClass.java:87)
+	at Utils.HelperClass.initializeDriver(HelperClass.java:58)
+	at Utils.HelperClass.<init>(HelperClass.java:36)
+	at Utils.HelperClass.getInstance(HelperClass.java:44)
+	at Definitions.Hooks.setUp(Hooks.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+	at org.testng.TestNG.runSuites(TestNG.java:1112)
+	at org.testng.TestNG.run(TestNG.java:1079)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:155)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:169)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:88)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:137)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:385)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
+]]></failure>
+    <system-err><![CDATA[Apr 05, 2025 9:17:24 PM org.openqa.selenium.remote.tracing.opentelemetry.OpenTelemetryTracer createTracer
+INFO: Using OpenTelemetry for tracing
+Apr 05, 2025 9:17:24 PM org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
+WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [browser, browser_version, os, os_version, resolution]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Validating the Search functionality&quot;, &quot;End To End Validation of the functionality of the shophighlinewarren site&quot;](1)" classname="Runner.RunnerTest" time="0.028">
+    <failure message="Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. &#10;Host info: host: &apos;VDL171&apos;, ip: &apos;192.168.128.253&apos;&#10;Build info: version: &apos;4.21.0&apos;, revision: &apos;79ed462ef4&apos;&#10;System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;22.0.2&apos;&#10;Driver info: org.openqa.selenium.remote.RemoteWebDriver&#10;Command: [null, newSession {capabilities=[Capabilities {browser: chrome, browser_version: latest, bstack:options: {accessKey: mp3htyvVeMchJqfJAzqp, buildName: Build 1, projectName: Cucumber Selenium Project, sessionName: Search Test, userName: sathiksha_aux1ho}, os: Windows, os_version: 10, resolution: 1920x1080}]}]&#10;Capabilities {browser: chrome, browser_version: latest, bstack:options: {accessKey: mp3htyvVeMchJqfJAzqp, buildName: Build 1, projectName: Cucumber Selenium Project, sessionName: Search Test, userName: sathiksha_aux1ho}, os: Windows, os_version: 10, resolution: 1920x1080}" type="org.openqa.selenium.SessionNotCreatedException"><![CDATA[org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure. 
+Host info: host: 'VDL171', ip: '192.168.128.253'
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Command: [null, newSession {capabilities=[Capabilities {browser: chrome, browser_version: latest, bstack:options: {accessKey: mp3htyvVeMchJqfJAzqp, buildName: Build 1, projectName: Cucumber Selenium Project, sessionName: Search Test, userName: sathiksha_aux1ho}, os: Windows, os_version: 10, resolution: 1920x1080}]}]
+Capabilities {browser: chrome, browser_version: latest, bstack:options: {accessKey: mp3htyvVeMchJqfJAzqp, buildName: Build 1, projectName: Cucumber Selenium Project, sessionName: Search Test, userName: sathiksha_aux1ho}, os: Windows, os_version: 10, resolution: 1920x1080}
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:536)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+	at Utils.HelperClass.initializeBrowserStackDriver(HelperClass.java:87)
+	at Utils.HelperClass.initializeDriver(HelperClass.java:58)
+	at Utils.HelperClass.<init>(HelperClass.java:36)
+	at Utils.HelperClass.getInstance(HelperClass.java:44)
+	at Definitions.Hooks.setUp(Hooks.java:19)
+Caused by: java.lang.IllegalArgumentException: Illegal key values seen in w3c capabilities: [browser, browser_version, os, os_version, resolution]
+	at org.openqa.selenium.remote.NewSessionPayload.lambda$validate$5(NewSessionPayload.java:163)
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:555)
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:556)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:212)
+	at java.base/java.util.stream.ReferencePipeline$15$1.accept(ReferencePipeline.java:556)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1709)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:556)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:546)
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:151)
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:174)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:265)
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:611)
+	at org.openqa.selenium.remote.NewSessionPayload.validate(NewSessionPayload.java:167)
+	at org.openqa.selenium.remote.NewSessionPayload.<init>(NewSessionPayload.java:70)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:99)
+	at org.openqa.selenium.remote.NewSessionPayload.create(NewSessionPayload.java:84)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:60)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:162)
+	at org.openqa.selenium.remote.TracedCommandExecutor.execute(TracedCommandExecutor.java:51)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:232)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:161)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:141)
+	at Utils.HelperClass.initializeBrowserStackDriver(HelperClass.java:87)
+	at Utils.HelperClass.initializeDriver(HelperClass.java:58)
+	at Utils.HelperClass.<init>(HelperClass.java:36)
+	at Utils.HelperClass.getInstance(HelperClass.java:44)
+	at Definitions.Hooks.setUp(Hooks.java:19)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at io.cucumber.java.Invoker.doInvoke(Invoker.java:66)
+	at io.cucumber.java.Invoker.invoke(Invoker.java:24)
+	at io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)
+	at io.cucumber.java.JavaHookDefinition.execute(JavaHookDefinition.java:64)
+	at io.cucumber.core.runner.CoreHookDefinition.execute(CoreHookDefinition.java:46)
+	at io.cucumber.core.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:21)
+	at io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)
+	at io.cucumber.core.runner.TestStep.executeStep(TestStep.java:81)
+	at io.cucumber.core.runner.TestStep.run(TestStep.java:53)
+	at io.cucumber.core.runner.TestCase.run(TestCase.java:78)
+	at io.cucumber.core.runner.Runner.runPickle(Runner.java:75)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:132)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
+	at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+]]></failure>
+    <system-out><![CDATA[21:17:25.409 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.411 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.411 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 6 GSUB lookup table is not supported and will be ignored
+21:17:25.411 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.411 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.450 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.450 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.450 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 6 GSUB lookup table is not supported and will be ignored
+21:17:25.450 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.450 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.462 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.463 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.463 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 6 GSUB lookup table is not supported and will be ignored
+21:17:25.463 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.463 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.477 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.478 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.478 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 6 GSUB lookup table is not supported and will be ignored
+21:17:25.478 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.478 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.616 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.616 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.617 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 6 GSUB lookup table is not supported and will be ignored
+21:17:25.617 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.617 [main] DEBUG org.apache.fontbox.ttf.GlyphSubstitutionTable -- Type 4 GSUB lookup table is not supported and will be ignored
+21:17:25.688 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\8514fix.fon
+21:17:25.688 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\8514fixe.fon
+21:17:25.688 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\8514fixg.fon
+21:17:25.689 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\8514fixr.fon
+21:17:25.689 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\8514fixt.fon
+21:17:25.689 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\8514oem.fon
+21:17:25.689 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\8514oeme.fon
+21:17:25.689 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\8514oemg.fon
+21:17:25.689 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\8514oemr.fon
+21:17:25.689 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\8514oemt.fon
+21:17:25.689 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\8514sys.fon
+21:17:25.689 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\8514syse.fon
+21:17:25.689 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\8514sysg.fon
+21:17:25.689 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\8514sysr.fon
+21:17:25.689 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\8514syst.fon
+21:17:25.689 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\85775.fon
+21:17:25.691 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\85855.fon
+21:17:25.691 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\85f1255.fon
+21:17:25.691 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\85f1256.fon
+21:17:25.691 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\85f1257.fon
+21:17:25.691 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\85f874.fon
+21:17:25.691 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\85s1255.fon
+21:17:25.691 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\85s1256.fon
+21:17:25.691 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\85s1257.fon
+21:17:25.692 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\85s874.fon
+21:17:25.692 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\AGENCYB.TTF
+21:17:25.692 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\AGENCYB.TTF
+21:17:25.692 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\AGENCYR.TTF
+21:17:25.692 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\AGENCYR.TTF
+21:17:25.692 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ALGER.TTF
+21:17:25.693 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ALGER.TTF
+21:17:25.693 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ANTQUAB.TTF
+21:17:25.693 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ANTQUAB.TTF
+21:17:25.693 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ANTQUABI.TTF
+21:17:25.693 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ANTQUABI.TTF
+21:17:25.693 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ANTQUAI.TTF
+21:17:25.693 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ANTQUAI.TTF
+21:17:25.694 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\app775.fon
+21:17:25.694 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\app850.fon
+21:17:25.694 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\app852.fon
+21:17:25.694 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\app855.fon
+21:17:25.694 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\app857.fon
+21:17:25.694 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\app866.fon
+21:17:25.694 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\app932.fon
+21:17:25.694 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\app936.fon
+21:17:25.694 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\app949.fon
+21:17:25.695 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\app950.fon
+21:17:25.695 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\arial.ttf
+21:17:25.695 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\arial.ttf
+21:17:25.695 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\arialbd.ttf
+21:17:25.695 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\arialbd.ttf
+21:17:25.695 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\arialbi.ttf
+21:17:25.695 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\arialbi.ttf
+21:17:25.695 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ariali.ttf
+21:17:25.695 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ariali.ttf
+21:17:25.696 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ARIALN.TTF
+21:17:25.696 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ARIALN.TTF
+21:17:25.696 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ARIALNB.TTF
+21:17:25.696 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ARIALNB.TTF
+21:17:25.696 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ARIALNBI.TTF
+21:17:25.696 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ARIALNBI.TTF
+21:17:25.696 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ARIALNI.TTF
+21:17:25.696 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ARIALNI.TTF
+21:17:25.696 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ariblk.ttf
+21:17:25.696 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ariblk.ttf
+21:17:25.697 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ARLRDBD.TTF
+21:17:25.697 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ARLRDBD.TTF
+21:17:25.697 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\bahnschrift.ttf
+21:17:25.697 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\bahnschrift.ttf
+21:17:25.697 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BASKVILL.TTF
+21:17:25.697 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BASKVILL.TTF
+21:17:25.697 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BAUHS93.TTF
+21:17:25.697 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BAUHS93.TTF
+21:17:25.697 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BELL.TTF
+21:17:25.697 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BELL.TTF
+21:17:25.698 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BELLB.TTF
+21:17:25.698 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BELLB.TTF
+21:17:25.698 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BELLI.TTF
+21:17:25.698 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BELLI.TTF
+21:17:25.698 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BERNHC.TTF
+21:17:25.698 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BERNHC.TTF
+21:17:25.698 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BKANT.TTF
+21:17:25.698 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BKANT.TTF
+21:17:25.698 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BOD_B.TTF
+21:17:25.698 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BOD_B.TTF
+21:17:25.698 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BOD_BI.TTF
+21:17:25.698 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BOD_BI.TTF
+21:17:25.699 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BOD_BLAI.TTF
+21:17:25.699 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BOD_BLAI.TTF
+21:17:25.699 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BOD_BLAR.TTF
+21:17:25.699 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BOD_BLAR.TTF
+21:17:25.699 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BOD_CB.TTF
+21:17:25.699 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BOD_CB.TTF
+21:17:25.699 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BOD_CBI.TTF
+21:17:25.699 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BOD_CBI.TTF
+21:17:25.699 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BOD_CI.TTF
+21:17:25.699 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BOD_CI.TTF
+21:17:25.699 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BOD_CR.TTF
+21:17:25.700 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BOD_CR.TTF
+21:17:25.700 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BOD_I.TTF
+21:17:25.700 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BOD_I.TTF
+21:17:25.700 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BOD_PSTC.TTF
+21:17:25.700 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BOD_PSTC.TTF
+21:17:25.700 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BOD_R.TTF
+21:17:25.700 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BOD_R.TTF
+21:17:25.700 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BOOKOS.TTF
+21:17:25.700 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BOOKOS.TTF
+21:17:25.700 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BOOKOSB.TTF
+21:17:25.700 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BOOKOSB.TTF
+21:17:25.701 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BOOKOSBI.TTF
+21:17:25.701 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BOOKOSBI.TTF
+21:17:25.701 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BOOKOSI.TTF
+21:17:25.701 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BOOKOSI.TTF
+21:17:25.701 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BRADHITC.TTF
+21:17:25.701 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BRADHITC.TTF
+21:17:25.701 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BRITANIC.TTF
+21:17:25.701 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BRITANIC.TTF
+21:17:25.701 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BRLNSB.TTF
+21:17:25.701 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BRLNSB.TTF
+21:17:25.701 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BRLNSDB.TTF
+21:17:25.701 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BRLNSDB.TTF
+21:17:25.702 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BRLNSR.TTF
+21:17:25.702 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BRLNSR.TTF
+21:17:25.702 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BROADW.TTF
+21:17:25.702 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BROADW.TTF
+21:17:25.702 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BRUSHSCI.TTF
+21:17:25.702 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BRUSHSCI.TTF
+21:17:25.702 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\BSSYM7.TTF
+21:17:25.702 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\BSSYM7.TTF
+21:17:25.702 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\c8514fix.fon
+21:17:25.702 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\c8514oem.fon
+21:17:25.702 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\c8514sys.fon
+21:17:25.702 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\calibri.ttf
+21:17:25.703 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\calibri.ttf
+21:17:25.703 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\calibrib.ttf
+21:17:25.703 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\calibrib.ttf
+21:17:25.703 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\calibrii.ttf
+21:17:25.703 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\calibrii.ttf
+21:17:25.703 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\calibril.ttf
+21:17:25.703 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\calibril.ttf
+21:17:25.703 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\calibrili.ttf
+21:17:25.703 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\calibrili.ttf
+21:17:25.703 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\calibriz.ttf
+21:17:25.703 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\calibriz.ttf
+21:17:25.703 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\CALIFB.TTF
+21:17:25.703 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\CALIFB.TTF
+21:17:25.704 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\CALIFI.TTF
+21:17:25.704 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\CALIFI.TTF
+21:17:25.704 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\CALIFR.TTF
+21:17:25.705 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\CALIFR.TTF
+21:17:25.705 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\CALIST.TTF
+21:17:25.705 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\CALIST.TTF
+21:17:25.705 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\CALISTB.TTF
+21:17:25.705 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\CALISTB.TTF
+21:17:25.705 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\CALISTBI.TTF
+21:17:25.705 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\CALISTBI.TTF
+21:17:25.706 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\CALISTI.TTF
+21:17:25.706 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\CALISTI.TTF
+21:17:25.706 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cambria.ttc
+21:17:25.706 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\cambria.ttc
+21:17:25.706 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cambriab.ttf
+21:17:25.706 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\cambriab.ttf
+21:17:25.706 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cambriai.ttf
+21:17:25.706 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\cambriai.ttf
+21:17:25.706 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cambriaz.ttf
+21:17:25.706 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\cambriaz.ttf
+21:17:25.706 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\Candara.ttf
+21:17:25.707 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\Candara.ttf
+21:17:25.707 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\Candarab.ttf
+21:17:25.707 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\Candarab.ttf
+21:17:25.707 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\Candarai.ttf
+21:17:25.707 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\Candarai.ttf
+21:17:25.707 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\Candaral.ttf
+21:17:25.707 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\Candaral.ttf
+21:17:25.707 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\Candarali.ttf
+21:17:25.707 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\Candarali.ttf
+21:17:25.707 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\Candaraz.ttf
+21:17:25.707 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\Candaraz.ttf
+21:17:25.707 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\CascadiaCode.ttf
+21:17:25.708 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\CascadiaCode.ttf
+21:17:25.708 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\CascadiaMono.ttf
+21:17:25.708 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\CascadiaMono.ttf
+21:17:25.708 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\CASTELAR.TTF
+21:17:25.708 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\CASTELAR.TTF
+21:17:25.708 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\CENSCBK.TTF
+21:17:25.708 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\CENSCBK.TTF
+21:17:25.709 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\CENTAUR.TTF
+21:17:25.709 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\CENTAUR.TTF
+21:17:25.709 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\CENTURY.TTF
+21:17:25.709 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\CENTURY.TTF
+21:17:25.709 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cga40737.fon
+21:17:25.709 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cga40850.fon
+21:17:25.710 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cga40852.fon
+21:17:25.710 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cga40857.fon
+21:17:25.710 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cga40866.fon
+21:17:25.710 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cga40869.fon
+21:17:25.710 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cga40woa.fon
+21:17:25.710 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cga80737.fon
+21:17:25.710 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cga80850.fon
+21:17:25.710 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cga80852.fon
+21:17:25.710 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cga80857.fon
+21:17:25.710 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cga80866.fon
+21:17:25.710 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cga80869.fon
+21:17:25.711 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cga80woa.fon
+21:17:25.711 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\CHILLER.TTF
+21:17:25.711 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\CHILLER.TTF
+21:17:25.711 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\COLONNA.TTF
+21:17:25.711 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\COLONNA.TTF
+21:17:25.711 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\comic.ttf
+21:17:25.711 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\comic.ttf
+21:17:25.711 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\comicbd.ttf
+21:17:25.711 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\comicbd.ttf
+21:17:25.711 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\comici.ttf
+21:17:25.711 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\comici.ttf
+21:17:25.712 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\comicz.ttf
+21:17:25.712 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\comicz.ttf
+21:17:25.712 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\consola.ttf
+21:17:25.712 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\consola.ttf
+21:17:25.712 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\consolab.ttf
+21:17:25.712 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\consolab.ttf
+21:17:25.712 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\consolai.ttf
+21:17:25.712 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\consolai.ttf
+21:17:25.712 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\consolaz.ttf
+21:17:25.712 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\consolaz.ttf
+21:17:25.713 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\constan.ttf
+21:17:25.713 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\constan.ttf
+21:17:25.713 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\constanb.ttf
+21:17:25.713 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\constanb.ttf
+21:17:25.713 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\constani.ttf
+21:17:25.713 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\constani.ttf
+21:17:25.713 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\constanz.ttf
+21:17:25.713 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\constanz.ttf
+21:17:25.713 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\COOPBL.TTF
+21:17:25.714 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\COOPBL.TTF
+21:17:25.714 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\COPRGTB.TTF
+21:17:25.714 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\COPRGTB.TTF
+21:17:25.714 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\COPRGTL.TTF
+21:17:25.714 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\COPRGTL.TTF
+21:17:25.714 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\corbel.ttf
+21:17:25.714 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\corbel.ttf
+21:17:25.714 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\corbelb.ttf
+21:17:25.714 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\corbelb.ttf
+21:17:25.714 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\corbeli.ttf
+21:17:25.714 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\corbeli.ttf
+21:17:25.715 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\corbell.ttf
+21:17:25.715 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\corbell.ttf
+21:17:25.715 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\corbelli.ttf
+21:17:25.715 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\corbelli.ttf
+21:17:25.715 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\corbelz.ttf
+21:17:25.715 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\corbelz.ttf
+21:17:25.715 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\coue1255.fon
+21:17:25.715 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\coue1256.fon
+21:17:25.715 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\coue1257.fon
+21:17:25.715 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\couf1255.fon
+21:17:25.715 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\couf1256.fon
+21:17:25.716 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\couf1257.fon
+21:17:25.716 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cour.ttf
+21:17:25.716 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\cour.ttf
+21:17:25.716 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\courbd.ttf
+21:17:25.716 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\courbd.ttf
+21:17:25.716 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\courbi.ttf
+21:17:25.716 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\courbi.ttf
+21:17:25.716 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\coure.fon
+21:17:25.716 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\couree.fon
+21:17:25.716 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\coureg.fon
+21:17:25.717 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\courer.fon
+21:17:25.717 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\couret.fon
+21:17:25.717 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\courf.fon
+21:17:25.717 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\courfe.fon
+21:17:25.717 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\courfg.fon
+21:17:25.717 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\courfr.fon
+21:17:25.717 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\courft.fon
+21:17:25.717 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\couri.ttf
+21:17:25.717 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\couri.ttf
+21:17:25.717 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\CURLZ___.TTF
+21:17:25.718 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\CURLZ___.TTF
+21:17:25.718 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cvgafix.fon
+21:17:25.718 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\cvgasys.fon
+21:17:25.718 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\desktop.ini
+21:17:25.718 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\dos737.fon
+21:17:25.718 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\dos869.fon
+21:17:25.718 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\dosapp.fon
+21:17:25.718 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\DUBAI-BOLD.TTF
+21:17:25.718 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\DUBAI-BOLD.TTF
+21:17:25.718 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\DUBAI-LIGHT.TTF
+21:17:25.718 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\DUBAI-LIGHT.TTF
+21:17:25.718 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\DUBAI-MEDIUM.TTF
+21:17:25.719 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\DUBAI-MEDIUM.TTF
+21:17:25.719 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\DUBAI-REGULAR.TTF
+21:17:25.719 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\DUBAI-REGULAR.TTF
+21:17:25.719 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ebrima.ttf
+21:17:25.719 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ebrima.ttf
+21:17:25.719 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ebrimabd.ttf
+21:17:25.719 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ebrimabd.ttf
+21:17:25.720 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ega40737.fon
+21:17:25.720 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ega40850.fon
+21:17:25.720 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ega40852.fon
+21:17:25.720 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ega40857.fon
+21:17:25.720 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ega40866.fon
+21:17:25.720 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ega40869.fon
+21:17:25.721 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ega40woa.fon
+21:17:25.721 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ega80737.fon
+21:17:25.721 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ega80850.fon
+21:17:25.721 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ega80852.fon
+21:17:25.721 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ega80857.fon
+21:17:25.721 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ega80866.fon
+21:17:25.722 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ega80869.fon
+21:17:25.722 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ega80woa.fon
+21:17:25.722 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ELEPHNT.TTF
+21:17:25.722 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ELEPHNT.TTF
+21:17:25.722 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ELEPHNTI.TTF
+21:17:25.722 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ELEPHNTI.TTF
+21:17:25.723 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ENGR.TTF
+21:17:25.723 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ENGR.TTF
+21:17:25.723 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ERASBD.TTF
+21:17:25.723 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ERASBD.TTF
+21:17:25.723 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ERASDEMI.TTF
+21:17:25.723 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ERASDEMI.TTF
+21:17:25.723 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ERASLGHT.TTF
+21:17:25.723 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ERASLGHT.TTF
+21:17:25.724 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ERASMD.TTF
+21:17:25.724 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ERASMD.TTF
+21:17:25.724 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\FELIXTI.TTF
+21:17:25.724 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\FELIXTI.TTF
+21:17:25.724 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\fms_metadata.xml
+21:17:25.724 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\FORTE.TTF
+21:17:25.724 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\FORTE.TTF
+21:17:25.724 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\FRABK.TTF
+21:17:25.724 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\FRABK.TTF
+21:17:25.725 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\FRABKIT.TTF
+21:17:25.725 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\FRABKIT.TTF
+21:17:25.725 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\FRADM.TTF
+21:17:25.725 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\FRADM.TTF
+21:17:25.725 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\FRADMCN.TTF
+21:17:25.725 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\FRADMCN.TTF
+21:17:25.725 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\FRADMIT.TTF
+21:17:25.725 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\FRADMIT.TTF
+21:17:25.725 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\FRAHV.TTF
+21:17:25.726 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\FRAHV.TTF
+21:17:25.726 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\FRAHVIT.TTF
+21:17:25.726 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\FRAHVIT.TTF
+21:17:25.727 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\framd.ttf
+21:17:25.727 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\framd.ttf
+21:17:25.728 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\FRAMDCN.TTF
+21:17:25.728 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\FRAMDCN.TTF
+21:17:25.728 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\framdit.ttf
+21:17:25.728 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\framdit.ttf
+21:17:25.729 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\FREESCPT.TTF
+21:17:25.729 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\FREESCPT.TTF
+21:17:25.729 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\FRSCRIPT.TTF
+21:17:25.729 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\FRSCRIPT.TTF
+21:17:25.729 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\FTLTLT.TTF
+21:17:25.729 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\FTLTLT.TTF
+21:17:25.730 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\Gabriola.ttf
+21:17:25.730 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\Gabriola.ttf
+21:17:25.731 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\gadugi.ttf
+21:17:25.731 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\gadugi.ttf
+21:17:25.731 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\gadugib.ttf
+21:17:25.732 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\gadugib.ttf
+21:17:25.732 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GARA.TTF
+21:17:25.732 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GARA.TTF
+21:17:25.732 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GARABD.TTF
+21:17:25.732 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GARABD.TTF
+21:17:25.733 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GARAIT.TTF
+21:17:25.733 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GARAIT.TTF
+21:17:25.733 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\georgia.ttf
+21:17:25.734 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\georgia.ttf
+21:17:25.734 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\georgiab.ttf
+21:17:25.734 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\georgiab.ttf
+21:17:25.734 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\georgiai.ttf
+21:17:25.735 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\georgiai.ttf
+21:17:25.735 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\georgiaz.ttf
+21:17:25.735 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\georgiaz.ttf
+21:17:25.735 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GIGI.TTF
+21:17:25.735 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GIGI.TTF
+21:17:25.736 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GILBI___.TTF
+21:17:25.736 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GILBI___.TTF
+21:17:25.737 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GILB____.TTF
+21:17:25.737 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GILB____.TTF
+21:17:25.737 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GILC____.TTF
+21:17:25.737 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GILC____.TTF
+21:17:25.738 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GILI____.TTF
+21:17:25.738 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GILI____.TTF
+21:17:25.738 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GILLUBCD.TTF
+21:17:25.738 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GILLUBCD.TTF
+21:17:25.738 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GILSANUB.TTF
+21:17:25.738 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GILSANUB.TTF
+21:17:25.739 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GIL_____.TTF
+21:17:25.739 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GIL_____.TTF
+21:17:25.739 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GLECB.TTF
+21:17:25.739 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GLECB.TTF
+21:17:25.739 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GLSNECB.TTF
+21:17:25.739 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GLSNECB.TTF
+21:17:25.739 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GOTHIC.TTF
+21:17:25.739 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GOTHIC.TTF
+21:17:25.739 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GOTHICB.TTF
+21:17:25.739 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GOTHICB.TTF
+21:17:25.740 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GOTHICBI.TTF
+21:17:25.740 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GOTHICBI.TTF
+21:17:25.740 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GOTHICI.TTF
+21:17:25.740 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GOTHICI.TTF
+21:17:25.740 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GOUDOS.TTF
+21:17:25.740 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GOUDOS.TTF
+21:17:25.741 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GOUDOSB.TTF
+21:17:25.741 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GOUDOSB.TTF
+21:17:25.741 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GOUDOSI.TTF
+21:17:25.741 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GOUDOSI.TTF
+21:17:25.741 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\GOUDYSTO.TTF
+21:17:25.741 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\GOUDYSTO.TTF
+21:17:25.741 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\h8514fix.fon
+21:17:25.742 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\h8514oem.fon
+21:17:25.742 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\h8514sys.fon
+21:17:25.742 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\HARLOWSI.TTF
+21:17:25.742 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\HARLOWSI.TTF
+21:17:25.742 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\HARNGTON.TTF
+21:17:25.742 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\HARNGTON.TTF
+21:17:25.742 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\HATTEN.TTF
+21:17:25.742 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\HATTEN.TTF
+21:17:25.742 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\himalaya.ttf
+21:17:25.742 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\himalaya.ttf
+21:17:25.743 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\holomdl2.ttf
+21:17:25.743 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\holomdl2.ttf
+21:17:25.743 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\HTOWERT.TTF
+21:17:25.743 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\HTOWERT.TTF
+21:17:25.743 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\HTOWERTI.TTF
+21:17:25.743 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\HTOWERTI.TTF
+21:17:25.743 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\hvgafix.fon
+21:17:25.743 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\hvgasys.fon
+21:17:25.743 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\impact.ttf
+21:17:25.743 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\impact.ttf
+21:17:25.743 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\IMPRISHA.TTF
+21:17:25.743 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\IMPRISHA.TTF
+21:17:25.744 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\INFROMAN.TTF
+21:17:25.744 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\INFROMAN.TTF
+21:17:25.744 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\Inkfree.ttf
+21:17:25.744 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\Inkfree.ttf
+21:17:25.744 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ITCBLKAD.TTF
+21:17:25.744 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ITCBLKAD.TTF
+21:17:25.744 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ITCEDSCR.TTF
+21:17:25.744 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ITCEDSCR.TTF
+21:17:25.744 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ITCKRIST.TTF
+21:17:25.744 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ITCKRIST.TTF
+21:17:25.744 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\j8514fix.fon
+21:17:25.744 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\j8514oem.fon
+21:17:25.744 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\j8514sys.fon
+21:17:25.745 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\javatext.ttf
+21:17:25.745 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\javatext.ttf
+21:17:25.745 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\JOKERMAN.TTF
+21:17:25.745 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\JOKERMAN.TTF
+21:17:25.745 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\jsmalle.fon
+21:17:25.745 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\jsmallf.fon
+21:17:25.745 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\JUICE___.TTF
+21:17:25.745 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\JUICE___.TTF
+21:17:25.745 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\jvgafix.fon
+21:17:25.745 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\jvgasys.fon
+21:17:25.745 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\KUNSTLER.TTF
+21:17:25.745 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\KUNSTLER.TTF
+21:17:25.746 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LATINWD.TTF
+21:17:25.746 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LATINWD.TTF
+21:17:25.746 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LBRITE.TTF
+21:17:25.746 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LBRITE.TTF
+21:17:25.746 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LBRITED.TTF
+21:17:25.746 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LBRITED.TTF
+21:17:25.746 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LBRITEDI.TTF
+21:17:25.746 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LBRITEDI.TTF
+21:17:25.746 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LBRITEI.TTF
+21:17:25.746 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LBRITEI.TTF
+21:17:25.746 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LCALLIG.TTF
+21:17:25.746 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LCALLIG.TTF
+21:17:25.747 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LeelaUIb.ttf
+21:17:25.747 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LeelaUIb.ttf
+21:17:25.747 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LEELAWAD.TTF
+21:17:25.747 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LEELAWAD.TTF
+21:17:25.747 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LEELAWDB.TTF
+21:17:25.747 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LEELAWDB.TTF
+21:17:25.747 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LeelawUI.ttf
+21:17:25.747 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LeelawUI.ttf
+21:17:25.747 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LeelUIsl.ttf
+21:17:25.747 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LeelUIsl.ttf
+21:17:25.747 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LFAX.TTF
+21:17:25.747 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LFAX.TTF
+21:17:25.748 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LFAXD.TTF
+21:17:25.748 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LFAXD.TTF
+21:17:25.748 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LFAXDI.TTF
+21:17:25.748 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LFAXDI.TTF
+21:17:25.748 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LFAXI.TTF
+21:17:25.748 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LFAXI.TTF
+21:17:25.748 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LHANDW.TTF
+21:17:25.748 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LHANDW.TTF
+21:17:25.748 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LSANS.TTF
+21:17:25.748 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LSANS.TTF
+21:17:25.749 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LSANSD.TTF
+21:17:25.749 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LSANSD.TTF
+21:17:25.749 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LSANSDI.TTF
+21:17:25.749 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LSANSDI.TTF
+21:17:25.749 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LSANSI.TTF
+21:17:25.749 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LSANSI.TTF
+21:17:25.749 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LTYPE.TTF
+21:17:25.749 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LTYPE.TTF
+21:17:25.749 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LTYPEB.TTF
+21:17:25.749 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LTYPEB.TTF
+21:17:25.749 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LTYPEBO.TTF
+21:17:25.749 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LTYPEBO.TTF
+21:17:25.751 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\LTYPEO.TTF
+21:17:25.751 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\LTYPEO.TTF
+21:17:25.751 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\lucon.ttf
+21:17:25.751 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\lucon.ttf
+21:17:25.751 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\l_10646.ttf
+21:17:25.751 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\l_10646.ttf
+21:17:25.751 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\MAGNETOB.TTF
+21:17:25.751 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\MAGNETOB.TTF
+21:17:25.751 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\MAIAN.TTF
+21:17:25.751 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\MAIAN.TTF
+21:17:25.751 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\malgun.ttf
+21:17:25.751 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\malgun.ttf
+21:17:25.751 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\malgunbd.ttf
+21:17:25.751 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\malgunbd.ttf
+21:17:25.752 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\malgunsl.ttf
+21:17:25.752 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\malgunsl.ttf
+21:17:25.752 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\marlett.ttf
+21:17:25.752 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\marlett.ttf
+21:17:25.752 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\MATURASC.TTF
+21:17:25.752 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\MATURASC.TTF
+21:17:25.752 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\micross.ttf
+21:17:25.752 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\micross.ttf
+21:17:25.754 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\mingliub.ttc
+21:17:25.754 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\mingliub.ttc
+21:17:25.754 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\MISTRAL.TTF
+21:17:25.754 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\MISTRAL.TTF
+21:17:25.754 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\mmrtext.ttf
+21:17:25.754 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\mmrtext.ttf
+21:17:25.754 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\mmrtextb.ttf
+21:17:25.754 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\mmrtextb.ttf
+21:17:25.754 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\MOD20.TTF
+21:17:25.754 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\MOD20.TTF
+21:17:25.755 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\modern.fon
+21:17:25.755 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\monbaiti.ttf
+21:17:25.755 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\monbaiti.ttf
+21:17:25.755 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\msgothic.ttc
+21:17:25.755 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\msgothic.ttc
+21:17:25.755 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\msjh.ttc
+21:17:25.755 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\msjh.ttc
+21:17:25.756 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\msjhbd.ttc
+21:17:25.756 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\msjhbd.ttc
+21:17:25.756 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\msjhl.ttc
+21:17:25.756 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\msjhl.ttc
+21:17:25.756 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\MSUIGHUB.TTF
+21:17:25.756 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\MSUIGHUB.TTF
+21:17:25.756 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\MSUIGHUR.TTF
+21:17:25.756 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\MSUIGHUR.TTF
+21:17:25.757 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\msyh.ttc
+21:17:25.757 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\msyh.ttc
+21:17:25.757 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\msyhbd.ttc
+21:17:25.757 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\msyhbd.ttc
+21:17:25.757 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\msyhl.ttc
+21:17:25.757 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\msyhl.ttc
+21:17:25.758 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\msyi.ttf
+21:17:25.758 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\msyi.ttf
+21:17:25.758 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\MTCORSVA.TTF
+21:17:25.758 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\MTCORSVA.TTF
+21:17:25.758 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\MTEXTRA.TTF
+21:17:25.758 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\MTEXTRA.TTF
+21:17:25.758 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\mvboli.ttf
+21:17:25.758 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\mvboli.ttf
+21:17:25.758 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\NIAGENG.TTF
+21:17:25.758 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\NIAGENG.TTF
+21:17:25.759 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\NIAGSOL.TTF
+21:17:25.759 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\NIAGSOL.TTF
+21:17:25.759 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\Nirmala.ttf
+21:17:25.759 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\Nirmala.ttf
+21:17:25.759 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\NirmalaB.ttf
+21:17:25.759 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\NirmalaB.ttf
+21:17:25.759 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\NirmalaS.ttf
+21:17:25.759 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\NirmalaS.ttf
+21:17:25.759 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ntailu.ttf
+21:17:25.759 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ntailu.ttf
+21:17:25.759 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ntailub.ttf
+21:17:25.759 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ntailub.ttf
+21:17:25.760 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\OCRAEXT.TTF
+21:17:25.760 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\OCRAEXT.TTF
+21:17:25.760 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\OFFSYMB.TTF\16.0.17231.20008\ApiClient.dll
+21:17:25.760 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\OFFSYMB.TTF\16.0.17231.20008\concrt140.dll
+21:17:25.760 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\OFFSYMB.TTF\16.0.17231.20008\msix.dll
+21:17:25.760 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\OFFSYMB.TTF\16.0.17231.20008\msvcp140.dll
+21:17:25.761 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\OFFSYMB.TTF\16.0.17231.20008\OfficeClickToRun.exe
+21:17:25.761 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\OFFSYMB.TTF\16.0.17231.20008\RepoMan.dll
+21:17:25.761 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\OFFSYMB.TTF\16.0.17231.20008\vcruntime140.dll
+21:17:25.761 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\OFFSYMB.TTF\16.0.17231.20008\vcruntime140_1.dll
+21:17:25.761 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\OLDENGL.TTF
+21:17:25.761 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\OLDENGL.TTF
+21:17:25.761 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ONYX.TTF
+21:17:25.761 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ONYX.TTF
+21:17:25.761 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\OUTLOOK.TTF
+21:17:25.761 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\OUTLOOK.TTF
+21:17:25.761 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\pala.ttf
+21:17:25.761 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\pala.ttf
+21:17:25.761 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\palab.ttf
+21:17:25.761 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\palab.ttf
+21:17:25.762 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\palabi.ttf
+21:17:25.762 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\palabi.ttf
+21:17:25.762 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\palai.ttf
+21:17:25.762 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\palai.ttf
+21:17:25.762 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\PALSCRI.TTF
+21:17:25.762 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\PALSCRI.TTF
+21:17:25.762 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\PAPYRUS.TTF
+21:17:25.762 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\PAPYRUS.TTF
+21:17:25.762 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\PARCHM.TTF
+21:17:25.762 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\PARCHM.TTF
+21:17:25.762 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\PERBI___.TTF
+21:17:25.762 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\PERBI___.TTF
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\PERB____.TTF
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\PERB____.TTF
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\PERI____.TTF
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\PERI____.TTF
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\PERTIBD.TTF
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\PERTIBD.TTF
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\PERTILI.TTF
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\PERTILI.TTF
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\PER_____.TTF
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\PER_____.TTF
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\phagspa.ttf
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\phagspa.ttf
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\phagspab.ttf
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\phagspab.ttf
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\PLAYBILL.TTF
+21:17:25.763 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\PLAYBILL.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\POORICH.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\POORICH.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\PRISTINA.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\PRISTINA.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\RAGE.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\RAGE.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\RAVIE.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\RAVIE.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\REFSAN.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\REFSAN.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\REFSPCL.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\REFSPCL.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ROCCB___.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ROCCB___.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ROCC____.TTF
+21:17:25.764 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ROCC____.TTF
+21:17:25.765 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ROCK.TTF
+21:17:25.765 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ROCK.TTF
+21:17:25.765 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ROCKB.TTF
+21:17:25.765 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ROCKB.TTF
+21:17:25.765 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ROCKBI.TTF
+21:17:25.765 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ROCKBI.TTF
+21:17:25.765 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ROCKEB.TTF
+21:17:25.765 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ROCKEB.TTF
+21:17:25.765 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ROCKI.TTF
+21:17:25.767 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\ROCKI.TTF
+21:17:25.769 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\roman.fon
+21:17:25.769 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\s8514fix.fon
+21:17:25.769 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\s8514oem.fon
+21:17:25.769 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\s8514sys.fon
+21:17:25.770 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\SCHLBKB.TTF
+21:17:25.771 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\SCHLBKB.TTF
+21:17:25.771 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\SCHLBKBI.TTF
+21:17:25.771 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\SCHLBKBI.TTF
+21:17:25.771 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\SCHLBKI.TTF
+21:17:25.771 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\SCHLBKI.TTF
+21:17:25.771 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\script.fon
+21:17:25.771 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\SCRIPTBL.TTF
+21:17:25.771 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\SCRIPTBL.TTF
+21:17:25.772 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\segmdl2.ttf
+21:17:25.772 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\segmdl2.ttf
+21:17:25.772 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\segoepr.ttf
+21:17:25.772 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\segoepr.ttf
+21:17:25.772 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\segoeprb.ttf
+21:17:25.772 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\segoeprb.ttf
+21:17:25.773 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\segoesc.ttf
+21:17:25.773 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\segoesc.ttf
+21:17:25.773 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\segoescb.ttf
+21:17:25.773 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\segoescb.ttf
+21:17:25.773 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\segoeui.ttf
+21:17:25.773 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\segoeui.ttf
+21:17:25.773 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\segoeuib.ttf
+21:17:25.773 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\segoeuib.ttf
+21:17:25.774 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\segoeuii.ttf
+21:17:25.774 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\segoeuii.ttf
+21:17:25.774 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\segoeuil.ttf
+21:17:25.774 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\segoeuil.ttf
+21:17:25.774 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\segoeuisl.ttf
+21:17:25.774 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\segoeuisl.ttf
+21:17:25.775 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\segoeuiz.ttf
+21:17:25.775 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\segoeuiz.ttf
+21:17:25.775 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\seguibl.ttf
+21:17:25.775 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\seguibl.ttf
+21:17:25.775 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\seguibli.ttf
+21:17:25.775 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\seguibli.ttf
+21:17:25.775 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\seguiemj.ttf
+21:17:25.776 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\seguiemj.ttf
+21:17:25.776 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\seguihis.ttf
+21:17:25.776 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\seguihis.ttf
+21:17:25.776 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\seguili.ttf
+21:17:25.777 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\seguili.ttf
+21:17:25.777 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\seguisb.ttf
+21:17:25.777 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\seguisb.ttf
+21:17:25.777 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\seguisbi.ttf
+21:17:25.777 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\seguisbi.ttf
+21:17:25.777 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\seguisli.ttf
+21:17:25.777 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\seguisli.ttf
+21:17:25.778 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\seguisym.ttf
+21:17:25.778 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\seguisym.ttf
+21:17:25.778 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\sere1255.fon
+21:17:25.778 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\sere1256.fon
+21:17:25.778 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\sere1257.fon
+21:17:25.778 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\serf1255.fon
+21:17:25.778 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\serf1256.fon
+21:17:25.778 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\serf1257.fon
+21:17:25.778 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\serife.fon
+21:17:25.778 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\serifee.fon
+21:17:25.778 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\serifeg.fon
+21:17:25.778 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\serifer.fon
+21:17:25.779 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\serifet.fon
+21:17:25.779 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\seriff.fon
+21:17:25.779 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\seriffe.fon
+21:17:25.779 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\seriffg.fon
+21:17:25.779 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\seriffr.fon
+21:17:25.779 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\serifft.fon
+21:17:25.779 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\SHOWG.TTF
+21:17:25.779 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\SHOWG.TTF
+21:17:25.779 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\simsun.ttc
+21:17:25.779 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\simsun.ttc
+21:17:25.779 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\simsunb.ttf
+21:17:25.779 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\simsunb.ttf
+21:17:25.779 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\SimsunExtG.ttf
+21:17:25.779 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\SimsunExtG.ttf
+21:17:25.779 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\Sitka.ttc
+21:17:25.780 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\Sitka.ttc
+21:17:25.780 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\SitkaB.ttc
+21:17:25.780 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\SitkaB.ttc
+21:17:25.780 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\SitkaI.ttc
+21:17:25.780 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\SitkaI.ttc
+21:17:25.780 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\SitkaZ.ttc
+21:17:25.780 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\SitkaZ.ttc
+21:17:25.780 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smae1255.fon
+21:17:25.780 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smae1256.fon
+21:17:25.780 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smae1257.fon
+21:17:25.780 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smaf1255.fon
+21:17:25.780 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smaf1256.fon
+21:17:25.780 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smaf1257.fon
+21:17:25.780 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smalle.fon
+21:17:25.780 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smallee.fon
+21:17:25.781 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smalleg.fon
+21:17:25.781 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smaller.fon
+21:17:25.781 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smallet.fon
+21:17:25.781 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smallf.fon
+21:17:25.781 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smallfe.fon
+21:17:25.781 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smallfg.fon
+21:17:25.781 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smallfr.fon
+21:17:25.781 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\smallft.fon
+21:17:25.781 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\SNAP____.TTF
+21:17:25.781 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\SNAP____.TTF
+21:17:25.781 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ssee1255.fon
+21:17:25.782 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ssee1256.fon
+21:17:25.782 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ssee1257.fon
+21:17:25.783 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ssee874.fon
+21:17:25.783 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ssef1255.fon
+21:17:25.783 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ssef1256.fon
+21:17:25.783 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ssef1257.fon
+21:17:25.783 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\ssef874.fon
+21:17:25.783 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\sserife.fon
+21:17:25.783 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\sserifee.fon
+21:17:25.783 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\sserifeg.fon
+21:17:25.783 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\sserifer.fon
+21:17:25.783 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\sserifet.fon
+21:17:25.784 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\sseriff.fon
+21:17:25.784 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\sseriffe.fon
+21:17:25.784 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\sseriffg.fon
+21:17:25.784 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\sseriffr.fon
+21:17:25.784 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\sserifft.fon
+21:17:25.784 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\StaticCache.dat
+21:17:25.784 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\STENCIL.TTF
+21:17:25.784 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\STENCIL.TTF
+21:17:25.784 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\svgafix.fon
+21:17:25.785 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\svgasys.fon
+21:17:25.785 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\sylfaen.ttf
+21:17:25.785 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\sylfaen.ttf
+21:17:25.785 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\symbol.ttf
+21:17:25.785 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\symbol.ttf
+21:17:25.785 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\tahoma.ttf
+21:17:25.785 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\tahoma.ttf
+21:17:25.785 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\tahomabd.ttf
+21:17:25.785 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\tahomabd.ttf
+21:17:25.785 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\taile.ttf
+21:17:25.785 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\taile.ttf
+21:17:25.786 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\taileb.ttf
+21:17:25.786 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\taileb.ttf
+21:17:25.786 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\TCBI____.TTF
+21:17:25.786 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\TCBI____.TTF
+21:17:25.786 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\TCB_____.TTF
+21:17:25.786 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\TCB_____.TTF
+21:17:25.786 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\TCCB____.TTF
+21:17:25.786 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\TCCB____.TTF
+21:17:25.786 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\TCCEB.TTF
+21:17:25.786 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\TCCEB.TTF
+21:17:25.787 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\TCCM____.TTF
+21:17:25.787 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\TCCM____.TTF
+21:17:25.787 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\TCMI____.TTF
+21:17:25.787 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\TCMI____.TTF
+21:17:25.787 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\TCM_____.TTF
+21:17:25.787 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\TCM_____.TTF
+21:17:25.788 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\TEMPSITC.TTF
+21:17:25.788 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\TEMPSITC.TTF
+21:17:25.788 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\times.ttf
+21:17:25.788 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\times.ttf
+21:17:25.788 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\timesbd.ttf
+21:17:25.788 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\timesbd.ttf
+21:17:25.788 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\timesbi.ttf
+21:17:25.788 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\timesbi.ttf
+21:17:25.789 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\timesi.ttf
+21:17:25.789 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\timesi.ttf
+21:17:25.789 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\trebuc.ttf
+21:17:25.789 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\trebuc.ttf
+21:17:25.789 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\trebucbd.ttf
+21:17:25.789 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\trebucbd.ttf
+21:17:25.789 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\trebucbi.ttf
+21:17:25.789 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\trebucbi.ttf
+21:17:25.790 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\trebucit.ttf
+21:17:25.790 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\trebucit.ttf
+21:17:25.790 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\verdana.ttf
+21:17:25.790 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\verdana.ttf
+21:17:25.790 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\verdanab.ttf
+21:17:25.790 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\verdanab.ttf
+21:17:25.790 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\verdanai.ttf
+21:17:25.790 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\verdanai.ttf
+21:17:25.790 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\verdanaz.ttf
+21:17:25.790 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\verdanaz.ttf
+21:17:25.790 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga737.fon
+21:17:25.791 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga775.fon
+21:17:25.791 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga850.fon
+21:17:25.791 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga852.fon
+21:17:25.791 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga855.fon
+21:17:25.791 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga857.fon
+21:17:25.791 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga860.fon
+21:17:25.791 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga861.fon
+21:17:25.791 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga863.fon
+21:17:25.791 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga865.fon
+21:17:25.791 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga866.fon
+21:17:25.791 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga869.fon
+21:17:25.791 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga932.fon
+21:17:25.791 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga936.fon
+21:17:25.791 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga949.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vga950.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgaf1255.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgaf1256.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgaf1257.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgaf874.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgafix.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgafixe.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgafixg.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgafixr.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgafixt.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgaoem.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgas1255.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgas1256.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgas1257.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgas874.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgasys.fon
+21:17:25.792 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgasyse.fon
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgasysg.fon
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgasysr.fon
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\vgasyst.fon
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\VINERITC.TTF
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\VINERITC.TTF
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\VIVALDII.TTF
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\VIVALDII.TTF
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\VLADIMIR.TTF
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\VLADIMIR.TTF
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\webdings.ttf
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\webdings.ttf
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\wingding.ttf
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\wingding.ttf
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\WINGDNG2.TTF
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\WINGDNG2.TTF
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\WINGDNG3.TTF
+21:17:25.793 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\WINGDNG3.TTF
+21:17:25.794 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\YuGothB.ttc
+21:17:25.794 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\YuGothB.ttc
+21:17:25.794 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\YuGothL.ttc
+21:17:25.794 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\YuGothL.ttc
+21:17:25.794 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\YuGothM.ttc
+21:17:25.794 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\YuGothM.ttc
+21:17:25.794 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile check C:\Windows\FONTS\YuGothR.ttc
+21:17:25.794 [main] DEBUG org.apache.fontbox.util.autodetect.FontFileFinder -- checkFontfile found C:\Windows\FONTS\YuGothR.ttc
+21:17:25.825 [main] DEBUG org.apache.pdfbox.pdmodel.font.FontMapperImpl -- getFont('TTF','TimesNewRomanPSMT') returns TimesNewRomanPSMT (TTF, mac: 0x0, os/2: 0x105, cid: null) C:\Windows\FONTS\times.ttf
+21:17:25.832 [main] DEBUG org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -- Loaded TimesNewRomanPSMT from C:\Windows\FONTS\times.ttf
+21:17:25.841 [main] DEBUG org.apache.pdfbox.pdmodel.font.FontMapperImpl -- getFont('TTF','TimesNewRomanPS-BoldMT') returns TimesNewRomanPS-BoldMT (TTF, mac: 0x1, os/2: 0x105, cid: null) C:\Windows\FONTS\timesbd.ttf
+21:17:25.844 [main] DEBUG org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -- Loaded TimesNewRomanPS-BoldMT from C:\Windows\FONTS\timesbd.ttf
+21:17:25.849 [main] DEBUG org.apache.pdfbox.pdmodel.font.FontMapperImpl -- getFont('TTF','TimesNewRomanPS-ItalicMT') returns TimesNewRomanPS-ItalicMT (TTF, mac: 0x2, os/2: 0x105, cid: null) C:\Windows\FONTS\timesi.ttf
+21:17:25.851 [main] DEBUG org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -- Loaded TimesNewRomanPS-ItalicMT from C:\Windows\FONTS\timesi.ttf
+21:17:25.857 [main] DEBUG org.apache.pdfbox.pdmodel.font.FontMapperImpl -- getFont('TTF','TimesNewRomanPS-BoldItalicMT') returns TimesNewRomanPS-BoldItalicMT (TTF, mac: 0x3, os/2: 0x105, cid: null) C:\Windows\FONTS\timesbi.ttf
+21:17:25.859 [main] DEBUG org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -- Loaded TimesNewRomanPS-BoldItalicMT from C:\Windows\FONTS\timesbi.ttf
+21:17:25.863 [main] DEBUG org.apache.pdfbox.pdmodel.font.FontMapperImpl -- getFont('TTF','ArialMT') returns ArialMT (TTF, mac: 0x0, os/2: 0x805, cid: null) C:\Windows\FONTS\arial.ttf
+21:17:25.866 [main] DEBUG org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -- Loaded ArialMT from C:\Windows\FONTS\arial.ttf
+21:17:25.871 [main] DEBUG org.apache.pdfbox.pdmodel.font.FontMapperImpl -- getFont('TTF','Arial-BoldMT') returns Arial-BoldMT (TTF, mac: 0x1, os/2: 0x805, cid: null) C:\Windows\FONTS\arialbd.ttf
+21:17:25.876 [main] DEBUG org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -- Loaded Arial-BoldMT from C:\Windows\FONTS\arialbd.ttf
+21:17:25.878 [main] DEBUG org.apache.pdfbox.pdmodel.font.FontMapperImpl -- getFont('TTF','Arial-ItalicMT') returns Arial-ItalicMT (TTF, mac: 0x2, os/2: 0x805, cid: null) C:\Windows\FONTS\ariali.ttf
+21:17:25.881 [main] DEBUG org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -- Loaded Arial-ItalicMT from C:\Windows\FONTS\ariali.ttf
+21:17:25.885 [main] DEBUG org.apache.pdfbox.pdmodel.font.FontMapperImpl -- getFont('TTF','Arial-BoldItalicMT') returns Arial-BoldItalicMT (TTF, mac: 0x3, os/2: 0x805, cid: null) C:\Windows\FONTS\arialbi.ttf
+21:17:25.889 [main] DEBUG org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -- Loaded Arial-BoldItalicMT from C:\Windows\FONTS\arialbi.ttf
+21:17:25.893 [main] DEBUG org.apache.pdfbox.pdmodel.font.FontMapperImpl -- getFont('TTF','CourierNewPSMT') returns CourierNewPSMT (TTF, mac: 0x0, os/2: 0x505, cid: null) C:\Windows\FONTS\cour.ttf
+21:17:25.896 [main] DEBUG org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -- Loaded CourierNewPSMT from C:\Windows\FONTS\cour.ttf
+21:17:25.899 [main] DEBUG org.apache.pdfbox.pdmodel.font.FontMapperImpl -- getFont('TTF','CourierNewPS-BoldMT') returns CourierNewPS-BoldMT (TTF, mac: 0x1, os/2: 0x505, cid: null) C:\Windows\FONTS\courbd.ttf
+21:17:25.900 [main] DEBUG org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -- Loaded CourierNewPS-BoldMT from C:\Windows\FONTS\courbd.ttf
+21:17:25.903 [main] DEBUG org.apache.pdfbox.pdmodel.font.FontMapperImpl -- getFont('TTF','CourierNewPS-ItalicMT') returns CourierNewPS-ItalicMT (TTF, mac: 0x2, os/2: 0x505, cid: null) C:\Windows\FONTS\couri.ttf
+21:17:25.907 [main] DEBUG org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -- Loaded CourierNewPS-ItalicMT from C:\Windows\FONTS\couri.ttf
+21:17:25.911 [main] DEBUG org.apache.pdfbox.pdmodel.font.FontMapperImpl -- getFont('TTF','CourierNewPS-BoldItalicMT') returns CourierNewPS-BoldItalicMT (TTF, mac: 0x3, os/2: 0x505, cid: null) C:\Windows\FONTS\courbi.ttf
+21:17:25.914 [main] DEBUG org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -- Loaded CourierNewPS-BoldItalicMT from C:\Windows\FONTS\courbi.ttf
+21:17:25.916 [main] DEBUG org.apache.pdfbox.pdmodel.font.FontMapperImpl -- getFont('TTF','SymbolMT') returns SymbolMT (TTF, mac: 0x0, os/2: 0xc03, cid: null) C:\Windows\FONTS\symbol.ttf
+21:17:25.917 [main] DEBUG org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -- Loaded SymbolMT from C:\Windows\FONTS\symbol.ttf
+21:17:25.919 [main] DEBUG org.apache.pdfbox.pdmodel.font.FontMapperImpl -- getFont('TTF','MS-Gothic') returns MS-Gothic (TTF, mac: 0x0, os/2: 0x801, cid: null) C:\Windows\FONTS\msgothic.ttc
+21:17:25.928 [main] DEBUG org.apache.pdfbox.pdmodel.font.FileSystemFontProvider -- Loaded MS-Gothic from C:\Windows\FONTS\msgothic.ttc
+]]></system-out>
+    <system-err><![CDATA[Apr 05, 2025 9:17:25 PM tech.grasshopper.pdf.PDFCucumberReport collectReportConfiguration
+INFO: PDF report configuration YAML file not found. Using default settings.
+Apr 05, 2025 9:17:27 PM org.openqa.selenium.remote.RemoteWebDriver checkNonW3CCapabilities
+WARNING: Support for Legacy Capabilities is deprecated; You are sending the following invalid capabilities: [browser, browser_version, os, os_version, resolution]; Please update to W3C Syntax: https://www.selenium.dev/blog/2022/legacy-protocol-support/
+]]></system-err>
+  </testcase>
+</testsuite>

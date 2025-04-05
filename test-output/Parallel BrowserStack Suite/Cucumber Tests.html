@@ -1,0 +1,167 @@
+<html>
+<head>
+<title>TestNG:  Cucumber Tests</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Cucumber Tests</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/4/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Apr 05 19:29:49 IST 2025</td>
+</tr>
+<tr><td>Total time:</td><td>57 seconds (57993 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: Runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: config2, "Validate Search Functionality", "Search Validation on HomePage"</td>
+<td><div><pre>java.lang.AssertionError: An exception occurred: SessionNotCreatedException
+	at Utils.HelperClass.handleException(HelperClass.java:121)
+	at Utils.HelperClass.initializeDriver(HelperClass.java:99)
+	at Utils.HelperClass.&lt;init&gt;(HelperClass.java:30)
+	at Definitions.Hooks.setUp(Hooks.java:20)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1343696113", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1343696113'><pre>java.lang.AssertionError: An exception occurred: SessionNotCreatedException
+	at org.testng.Assert.fail(Assert.java:99)
+	at Utils.HelperClass.handleException(HelperClass.java:121)
+	at Utils.HelperClass.initializeDriver(HelperClass.java:99)
+	at Utils.HelperClass.&lt;init&gt;(HelperClass.java:30)
+	at Definitions.Hooks.setUp(Hooks.java:20)
+</pre></div></td>
+<td>3</td>
+<td>Runner.RunnerTest@36ebc363</td></tr>
+<tr>
+<td title='Runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: Runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: config3, "Validate Search Functionality", "Search Validation on HomePage"</td>
+<td><div><pre>java.lang.AssertionError: An exception occurred: TimeoutException
+	at Utils.HelperClass.handleException(HelperClass.java:121)
+	at TestCases.SearchValidation.verify_if_the_user_can_click_on_the_search_box_enter_any_tool_or_equipment_category_and_ensure_that_suggestions_are_displayed(SearchValidation.java:64)
+	at ✽.Verify if the user can click on the search box, enter any Tool or Equipment category, and ensure that suggestions are displayed(file:///C:/Users/Sathik/eclipse-workspace/Shop_HighLine_Project/src/test/resources/features/Animation.feature:5)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1426098250", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1426098250'><pre>java.lang.AssertionError: An exception occurred: TimeoutException
+	at org.testng.Assert.fail(Assert.java:99)
+	at Utils.HelperClass.handleException(HelperClass.java:121)
+	at TestCases.SearchValidation.verify_if_the_user_can_click_on_the_search_box_enter_any_tool_or_equipment_category_and_ensure_that_suggestions_are_displayed(SearchValidation.java:64)
+	at ✽.Verify if the user can click on the search box, enter any Tool or Equipment category, and ensure that suggestions are displayed(file:///C:/Users/Sathik/eclipse-workspace/Shop_HighLine_Project/src/test/resources/features/Animation.feature:5)
+</pre></div></td>
+<td>55</td>
+<td>Runner.RunnerTest@36ebc363</td></tr>
+<tr>
+<td title='Runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: Runner.RunnerTest<br>Test method: Runs Cucumber Scenarios<br>Parameters: config1, "Validate Search Functionality", "Search Validation on HomePage"</td>
+<td><div><pre>java.lang.AssertionError: An exception occurred: SessionNotCreatedException
+	at Utils.HelperClass.handleException(HelperClass.java:121)
+	at Utils.HelperClass.initializeDriver(HelperClass.java:99)
+	at Utils.HelperClass.&lt;init&gt;(HelperClass.java:30)
+	at Definitions.Hooks.setUp(Hooks.java:20)
+... Removed 1 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace826180898", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace826180898'><pre>java.lang.AssertionError: An exception occurred: SessionNotCreatedException
+	at org.testng.Assert.fail(Assert.java:99)
+	at Utils.HelperClass.handleException(HelperClass.java:121)
+	at Utils.HelperClass.initializeDriver(HelperClass.java:99)
+	at Utils.HelperClass.&lt;init&gt;(HelperClass.java:30)
+	at Definitions.Hooks.setUp(Hooks.java:20)
+</pre></div></td>
+<td>3</td>
+<td>Runner.RunnerTest@36ebc363</td></tr>
+<tr>
+<td title='Runner.RunnerTest.runScenario()'><b>runScenario</b><br>Test class: Runner.RunnerTest<br>Test method: Runs Cucumber Scenarios</td>
+<td><div><pre>org.testng.internal.reflect.MethodMatcherException: 
+[public void io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: runScenario([Parameter{index=0, type=io.cucumber.testng.PickleWrapper, declaredAnnotations=[]}, Parameter{index=1, type=io.cucumber.testng.FeatureWrapper, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) config1,(io.cucumber.testng.PickleWrapperImpl) &quot;Validate Search Functionality&quot;,(io.cucumber.testng.FeatureWrapperImpl) &quot;Search Validation on HomePage&quot;]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+... Removed 13 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1457733212", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1457733212'><pre>org.testng.internal.reflect.MethodMatcherException: 
+[public void io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)] has no parameters defined but was found to be using a data provider (either explicitly specified or inherited from class level annotation).
+Data provider mismatch
+Method: runScenario([Parameter{index=0, type=io.cucumber.testng.PickleWrapper, declaredAnnotations=[]}, Parameter{index=1, type=io.cucumber.testng.FeatureWrapper, declaredAnnotations=[]}])
+Arguments: [(java.lang.String) config1,(io.cucumber.testng.PickleWrapperImpl) &quot;Validate Search Functionality&quot;,(io.cucumber.testng.FeatureWrapperImpl) &quot;Search Validation on HomePage&quot;]
+	at org.testng.internal.reflect.DataProviderMethodMatcher.getConformingArguments(DataProviderMethodMatcher.java:43)
+	at org.testng.internal.Parameters.injectParameters(Parameters.java:914)
+	at org.testng.internal.MethodRunner.runInParallel(MethodRunner.java:103)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:819)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:28)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:418)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1570)
+</pre></div></td>
+<td>0</td>
+<td>Runner.RunnerTest@36ebc363</td></tr>
+</table><p>
+</body>
+</html>
