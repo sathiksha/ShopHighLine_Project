@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-05T17:09:08 IST" name="Default suite" finished-at="2025-04-05T17:09:24 IST" duration-ms="16232">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@62379589]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-04-05T17:09:08 IST" name="Default test" finished-at="2025-04-05T17:09:24 IST" duration-ms="16232">
+      <class name="Runner.RunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.RunnerTest@62379589]" started-at="2025-04-05T17:09:08 IST" name="setUpClass" finished-at="2025-04-05T17:09:09 IST" duration-ms="583" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@79b7c350]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@62379589]" started-at="2025-04-05T17:09:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-05T17:09:22 IST" duration-ms="13094" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating the Search functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End To End Validation of the functionality of the shophighlinewarren site"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[The following asserts failed:
+expected [Test] but found [Search Results: AIR TOOL OIL]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: The following asserts failed:
+expected [Test] but found [Search Results: AIR TOOL OIL]
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:47)
+at org.testng.asserts.SoftAssert.assertAll(SoftAssert.java:31)
+at TestCases.SearchValidation.verify_if_the_user_fails_the_validation_and_the_error_scenarios_are_shown_in_the_report(SearchValidation.java:87)
+at ✽.Verify if the user fails the validation and the error scenarios are shown in the report(file:///C:/Users/Sathik/eclipse-workspace/Shop_HighLine_Project/src/test/resources/features/Animation.feature:10)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.RunnerTest@62379589]" started-at="2025-04-05T17:09:22 IST" name="tearDownClass" finished-at="2025-04-05T17:09:24 IST" duration-ms="2516" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.RunnerTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
