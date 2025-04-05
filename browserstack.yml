@@ -1,0 +1,22 @@
+userName: sathika_QDsoHh
+accessKey: LpL2UgJNocm8ozdoAsbT
+framework: "cucumber-testng"
+platforms:
+  - os: Windows
+    osVersion: 10
+    browser: Chrome
+    browserVersion: latest
+    resolution: 1920x1080
+  - os: Windows
+    osVersion: 10
+    browser: Firefox
+    browserVersion: latest
+    resolution: 1366x768
+  - os: Windows
+    osVersion: 10
+    browser: Edge
+    browserVersion: latest
+    resolution: 1440x900
+parallelsPerPlatform: 1  # Set to 1 for trial; increase if upgraded
+buildName: "Shop HighLine Multi-Browser Test - April 2025"
+projectName: "Shop HighLine Project"

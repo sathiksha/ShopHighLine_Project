@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Firefox 1366x768(failed)">
+    <parameter name="browser" value="Firefox"/>
+    <parameter name="resolution" value="1366x768"/>
+    <classes>
+      <class name="Runner.RunnerTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Runner.RunnerTest -->
+    </classes>
+  </test> <!-- Firefox 1366x768(failed) -->
+  <test thread-count="1" parallel="tests" name="Edge 1440x900(failed)">
+    <parameter name="browser" value="Edge"/>
+    <parameter name="resolution" value="1440x900"/>
+    <classes>
+      <class name="Runner.RunnerTest">
+        <methods>
+          <include name="setUpClass"/>
+          <include name="runScenario" invocation-numbers="0"/>
+          <include name="tearDownClass"/>
+        </methods>
+      </class> <!-- Runner.RunnerTest -->
+    </classes>
+  </test> <!-- Edge 1440x900(failed) -->
+</suite> <!-- Failed suite [Automation Suite] -->
