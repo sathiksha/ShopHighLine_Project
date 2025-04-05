@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="Automation Suite" verbose="1" parallel="false">
-    <test name="Cucumber Test">
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation Suite" verbose="10" parallel="tests" thread-count="1">
+    <test name="Chrome 1920x1080">
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="resolution" value="1920x1080"/>
         <classes>
+            <class name="Definitions.Hooks"/>
+            <class name="Runner.RunnerTest"/>
+        </classes>
+    </test>
+    <test name="Firefox 1366x768">
+        <parameter name="browser" value="Firefox"/>
+        <parameter name="resolution" value="1366x768"/>
+        <classes>
+            <class name="Definitions.Hooks"/>
+            <class name="Runner.RunnerTest"/>
+        </classes>
+    </test>
+    <test name="Edge 1440x900">
+        <parameter name="browser" value="Edge"/>
+        <parameter name="resolution" value="1440x900"/>
+        <classes>
+            <class name="Definitions.Hooks"/>
             <class name="Runner.RunnerTest"/>
         </classes>
     </test>

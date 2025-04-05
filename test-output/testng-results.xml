@@ -1,27 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-05T23:24:56 IST" name="Default suite" finished-at="2025-04-05T23:25:37 IST" duration-ms="40387">
+  <suite started-at="2025-04-06T04:20:51 IST" name="Automation Suite" finished-at="2025-04-06T04:22:45 IST" duration-ms="114470">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@6c45ee6e]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@4f83df68]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@51399530]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@13c9d689]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-04-05T23:24:56 IST" name="Default test" finished-at="2025-04-05T23:25:37 IST" duration-ms="40387">
+    <test started-at="2025-04-06T04:20:51 IST" name="Chrome 1920x1080" finished-at="2025-04-06T04:21:27 IST" duration-ms="36249">
       <class name="Runner.RunnerTest">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.RunnerTest@6c45ee6e]" started-at="2025-04-05T23:24:56 IST" name="setUpClass" finished-at="2025-04-05T23:24:57 IST" duration-ms="344" status="PASS">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.RunnerTest@4f83df68]" started-at="2025-04-06T04:21:10 IST" name="setUpClass" finished-at="2025-04-06T04:21:12 IST" duration-ms="1573" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@5e5beb8a]]>
+                <![CDATA[org.testng.TestRunner@5dda768f]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@6c45ee6e]" started-at="2025-04-05T23:24:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-05T23:25:37 IST" duration-ms="39971" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@4f83df68]" started-at="2025-04-06T04:21:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T04:21:27 IST" duration-ms="15458" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,18 +32,160 @@
             </param>
             <param index="1">
               <value>
-                <![CDATA["End To End Validation of the functionality of the shophighlinewarren site"]]>
+                <![CDATA["End To End Validation of the functionality of the ShopHighLineWarren site"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.RunnerTest@6c45ee6e]" started-at="2025-04-05T23:25:37 IST" name="tearDownClass" finished-at="2025-04-05T23:25:37 IST" duration-ms="45" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.RunnerTest@4f83df68]" started-at="2025-04-06T04:21:27 IST" name="tearDownClass" finished-at="2025-04-06T04:21:27 IST" duration-ms="42" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
       </class> <!-- Runner.RunnerTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="Definitions.Hooks">
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestContext)[pri:0, instance:Definitions.Hooks@6069db50]" started-at="2025-04-06T04:20:51 IST" name="setUpTest" finished-at="2025-04-06T04:21:10 IST" duration-ms="19101" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5dda768f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestContext)[pri:0, instance:Definitions.Hooks@6069db50]" started-at="2025-04-06T04:21:27 IST" name="tearDownTest" finished-at="2025-04-06T04:21:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5dda768f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- Definitions.Hooks -->
+    </test> <!-- Chrome 1920x1080 -->
+    <test started-at="2025-04-06T04:21:27 IST" name="Firefox 1366x768" finished-at="2025-04-06T04:22:16 IST" duration-ms="48436">
+      <class name="Runner.RunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.RunnerTest@51399530]" started-at="2025-04-06T04:22:01 IST" name="setUpClass" finished-at="2025-04-06T04:22:01 IST" duration-ms="20" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2aceadd4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@51399530]" started-at="2025-04-06T04:22:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T04:22:16 IST" duration-ms="14126" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating the Search functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End To End Validation of the functionality of the ShopHighLineWarren site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.RunnerTest@51399530]" started-at="2025-04-06T04:22:16 IST" name="tearDownClass" finished-at="2025-04-06T04:22:16 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.RunnerTest -->
+      <class name="Definitions.Hooks">
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestContext)[pri:0, instance:Definitions.Hooks@6771beb3]" started-at="2025-04-06T04:21:27 IST" name="setUpTest" finished-at="2025-04-06T04:22:01 IST" duration-ms="34241" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2aceadd4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestContext)[pri:0, instance:Definitions.Hooks@6771beb3]" started-at="2025-04-06T04:22:16 IST" name="tearDownTest" finished-at="2025-04-06T04:22:16 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2aceadd4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- Definitions.Hooks -->
+    </test> <!-- Firefox 1366x768 -->
+    <test started-at="2025-04-06T04:22:16 IST" name="Edge 1440x900" finished-at="2025-04-06T04:22:45 IST" duration-ms="29729">
+      <class name="Runner.RunnerTest">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.RunnerTest@13c9d689]" started-at="2025-04-06T04:22:33 IST" name="setUpClass" finished-at="2025-04-06T04:22:33 IST" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24aed80c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.RunnerTest@13c9d689]" started-at="2025-04-06T04:22:33 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-04-06T04:22:45 IST" duration-ms="12177" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Validating the Search functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["End To End Validation of the functionality of the ShopHighLineWarren site"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.RunnerTest@13c9d689]" started-at="2025-04-06T04:22:45 IST" name="tearDownClass" finished-at="2025-04-06T04:22:45 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.RunnerTest -->
+      <class name="Definitions.Hooks">
+        <test-method is-config="true" signature="setUpTest(org.testng.ITestContext)[pri:0, instance:Definitions.Hooks@28701274]" started-at="2025-04-06T04:22:16 IST" name="setUpTest" finished-at="2025-04-06T04:22:33 IST" duration-ms="17473" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24aed80c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method is-config="true" signature="tearDownTest(org.testng.ITestContext)[pri:0, instance:Definitions.Hooks@28701274]" started-at="2025-04-06T04:22:45 IST" name="tearDownTest" finished-at="2025-04-06T04:22:45 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@24aed80c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- Definitions.Hooks -->
+    </test> <!-- Edge 1440x900 -->
+  </suite> <!-- Automation Suite -->
 </testng-results>
